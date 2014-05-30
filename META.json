@@ -44,6 +44,11 @@
       },
       "runtime" : {
          "requires" : {
+            "Log::Log4perl" : "0",
+            "Log::Log4perl::Appender::File" : "0",
+            "Log::Log4perl::Appender::Screen" : "0",
+            "Moose::Role" : "0",
+            "MooseX::App::Role" : "0",
             "perl" : "5.008001"
          }
       },
@@ -56,7 +61,7 @@
    "provides" : {
       "MooseX::App::Role::Log4perl" : {
          "file" : "lib/MooseX/App/Role/Log4perl.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -70,8 +75,9 @@
          "web" : "https://github.com/PsyDefect/MX-App-Role-Log4perl"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
-      "John Dexter <John.Dexter@mercer.com>"
+      "John Dexter <John.Dexter@mercer.com>",
+      "John Dexter <john.dexter@psydefect.com>"
    ]
 }
